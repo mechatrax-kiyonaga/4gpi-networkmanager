@@ -3,8 +3,10 @@
   * debian/control
     - Add Uploaders
     - Bump Standards-Version to 4.6.2
+  * 4gpi-networkmanager-helper.service
+    - Change service dependency
 
- -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Thu, 08 Jun 2023 05:44:34 +0000
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Thu, 15 Jun 2023 11:24:48 +0900
 
 4gpi-networkmanager (3.0.2) bullseye; urgency=medium
 
