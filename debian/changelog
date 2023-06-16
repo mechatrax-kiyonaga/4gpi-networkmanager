@@ -1,3 +1,9 @@
+4gpi-networkmanager (4.0.0) bookworm; urgency=medium
+
+  * Use QMI to control the modem
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Mon, 11 Sep 2023 10:38:43 +0000
+
 4gpi-networkmanager (3.0.2.1) bookworm; urgency=medium
 
   * debian/control
