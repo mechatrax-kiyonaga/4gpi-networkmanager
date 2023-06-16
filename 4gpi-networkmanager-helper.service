@@ -1,6 +1,6 @@
 [Unit]
 Description=NetworkManager Helper for 4GPi
-After=dev-tty4GPI.device
+Before=NetworkManager.service
 
 [Service]
 Type=simple
@@ -8,5 +8,5 @@ ExecStart=/usr/sbin/4gpi-dbus-watcher
 Restart=always
 
 [Install]
-WantedBy=dev-tty4GPI.device
+WantedBy=multi-user.target
 
